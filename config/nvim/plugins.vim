@@ -9,8 +9,9 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'preservim/vim-colors-pencil'
 	Plug 'tpope/vim-commentary'
 	Plug 'tpope/vim-fugitive'
-	Plug 'rafaqz/ranger.vim'
 	Plug 'mhinz/vim-startify'
+	Plug 'francoiscabrol/ranger.vim'
+	Plug 'rbgrouleff/bclose.vim'
 call plug#end()
 
 " tag bar
@@ -19,6 +20,12 @@ let g:tagbar_ctags_bin = "~/.local/share/bin/ctags"
 
 " ctrlp
 nmap <C-p> :CtrlPMixed<CR>
+
+" ranger
+nmap <leader>h <C-w>v<C-w><Left><Esc>:Ranger<cr>
+nmap <leader>l <C-w>v<C-w><Right><Esc>:Ranger<cr>
+nmap <leader>k <C-w>s<C-w><Up><Esc>:Ranger<cr>
+nmap <leader>j <C-w>s<C-w><Down><Esc>:Ranger<cr>
 
 " coc
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count

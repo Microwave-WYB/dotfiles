@@ -74,10 +74,6 @@ nmap <C-down> <C-w>+
 nmap <C-up> <C-w>-
 nmap <C-left> <C-w><
 nmap <C-right> <C-w>>
-nmap <leader>h <C-w>v<C-w><Left><Esc>:RangerEdit<cr>
-nmap <leader>l <C-w>v<C-w><Right><Esc>:RangerEdit<cr>
-nmap <leader>k <C-w>s<C-w><Up><Esc>:RangerEdit<cr>
-nmap <leader>j <C-w>s<C-w><Down><Esc>:RangerEdit<cr>
 nmap <leader>1 1gt<cr>
 nmap <leader>2 2gt<cr>
 nmap <leader>3 3gt<cr>
