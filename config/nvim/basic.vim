@@ -5,7 +5,6 @@ set wrap
 set noexpandtab
 set smarttab
 set noswapfile
-" set number
 set nu
 set mouse=a
 set showmatch
@@ -19,7 +18,6 @@ set noshowmode
 set cmdheight=1
 set foldmethod=indent
 set nofoldenable
-"set foldlevel=99
 
 " Return to last edit position when opening files (You want this!)
 autocmd BufReadPost *
